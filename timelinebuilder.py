@@ -47,7 +47,7 @@ class TimelineBuilder:
                 self.tempEvent['end_clip'] = f"{duration/1000 + 3:.2f}"
                 self.timeline.append(self.tempEvent)
                 print(self.tempEvent)
-                # self.dump()
+                self.dump()
             self.tempEvent = None
 
     def dump(self):
